@@ -9,9 +9,9 @@ public class Prob5 // class prob5
 		int count = 0; // initial value of variable count
 		if (m1.length != m2.length) // if the number of row is different, return false
 			return false; // returning value of false
-		for (int i = 0; i < m1.length; i++) // condition of loop in column
+		for (int i = 0; i < m1.length; i++) //  column of m1
 		{
-			for (int j = 0; j < m1[i].length; j++) // condition of loop in row
+			for (int j = 0; j < m1[i].length; j++) // row of m1
 			{
 				if (m1[i][j] != m2[i][j]) // if two are different
 					count++; // count = count +1
